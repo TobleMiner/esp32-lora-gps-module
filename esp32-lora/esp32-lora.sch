@@ -1045,17 +1045,6 @@ Wire Wire Line
 Text GLabel 13400 1350 0    50   Input ~ 0
 GPIO0
 $Comp
-L Device:D D?
-U 1 1 5CD345B1
-P 26400 2550
-F 0 "D?" V 26446 2471 50  0000 R CNN
-F 1 "D" V 26355 2471 50  0000 R CNN
-F 2 "" H 26400 2550 50  0001 C CNN
-F 3 "~" H 26400 2550 50  0001 C CNN
-	1    26400 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L vusb:VUSB #PWR?
 U 1 1 5CD3F638
 P 26400 2200
@@ -2172,4 +2161,15 @@ Wire Bus Line
 Wire Bus Line
 	6500 700  6500 2000
 Connection ~ 24700 3600
+$Comp
+L Device:D_Schottky D?
+U 1 1 5DC64CB3
+P 26400 2550
+F 0 "D?" V 26446 2471 50  0000 R CNN
+F 1 "D_Schottky" V 26355 2471 50  0000 R CNN
+F 2 "" H 26400 2550 50  0001 C CNN
+F 3 "~" H 26400 2550 50  0001 C CNN
+	1    26400 2550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

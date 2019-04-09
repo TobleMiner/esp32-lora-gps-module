@@ -8,4 +8,5 @@
   (lib (name 74lv4t)(type Legacy)(uri ${KIPRJMOD}/74lv4t.lib)(options "")(descr ""))
   (lib (name vusb)(type Legacy)(uri ${KIPRJMOD}/vusb.lib)(options "")(descr ""))
   (lib (name esp32-lora-rescue)(type Legacy)(uri ${KIPRJMOD}/esp32-lora-rescue.lib)(options "")(descr ""))
+  (lib (name vdd_sdio)(type Legacy)(uri ${KIPRJMOD}/vdd_sdio.lib)(options "")(descr ""))
 )
